@@ -17,7 +17,7 @@ A Telegram bot that removes metadata from JPEG images and adds a custom comment.
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/telegram-metadata-cleaner.git
+git clone https://github.com/iNDiK4/T_Metadata_Clean.git
 ```
 2. Install dependencies:
 ```bash
@@ -28,13 +28,13 @@ pip install aiogram
    - macOS: `brew install exiftool`
 
 ## Usage
-1. Set your bot token in the `telegram_bot.py` file:
+1. Set your bot token in the `bot.py` file:
 ```python
 TOKEN = 'YOUR_BOT_TOKEN'
 ```
 2. Run the bot:
 ```bash
-python telegram_bot.py
+python bot.py
 ```
 3. Start the bot in Telegram with `/start` and upload a JPEG file.
 
